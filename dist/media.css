@@ -1,0 +1,320 @@
+@media (max-width:1024px){
+    #appeal .row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .appeal:nth-child(1){
+        background: url('./img/men-suggest2.jpg') center top / cover;
+        padding: 200px;
+    }
+    
+    .appeal:nth-child(2){
+        background: url('./img/woman-suggest2.jpg') center top / cover;
+        padding: 200px;
+    }
+
+    #trending .row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .trend .img1{
+        background: url('./img/woman-trend.jpg') center / cover;
+        padding: 200px;
+    }
+    
+    .trend .img2{
+        background: url('./img/men-trend.jpg') center top / cover;
+        padding: 200px;
+    }
+    
+    .trend .img3{
+        background: url('./img/men-appeal.jpg') center top / cover;
+        padding: 200px;
+    }
+    
+    #suggest .row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .suggest .img1{
+        background: url('./img/woman-suggest.jpg') center / cover;
+        padding: 200px;
+    }
+    
+    .suggest .img2{
+        background: url('./img/men-suggest.jpg') center / cover;
+        padding: 200px;
+    }
+    
+    .suggest .img3{
+        background: url('./img/woman-appeal.jpg') center top / cover;
+        padding: 200px;
+    }
+}
+
+@media (max-width:768px){  
+    .appeal:nth-child(1){
+        padding: 100px;
+    }
+    
+    .appeal:nth-child(2){
+        padding: 100px;
+    }
+
+    .trend .img1{
+        padding: 100px;
+    }
+    
+    .trend .img2{
+        background: url('./img/men-trend.jpg') center / cover;
+        padding: 100px;
+    }
+    
+    .trend .img3{
+        background: url('./img/men-appeal.jpg') center / cover;
+        padding: 100px;
+    }
+
+    .suggest .img1{
+        padding: 100px;
+    }
+    
+    .suggest .img2{
+        background: url('./img/men-suggest.jpg') center / cover;
+        padding: 100px;
+    }
+    
+    .suggest .img3{
+        background: url('./img/woman-appeal.jpg') center / cover;
+        padding: 100px;
+    }
+
+    #links .row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:623px){
+    #services h4{
+        font-size: 15px;
+    }
+
+    #newsletter{
+        padding: 30px;
+    }
+
+    #newsletter i{
+        margin-inline: 0;
+        padding: 10px;
+    }
+}
+
+@media (max-width:480px){
+    .carousel-item:nth-child(1){
+        background: url('./img/men-slide\ -\ Copy.jpg') center / cover;
+        padding: 190px;
+    }
+
+    .carousel-item:nth-child(2){
+        background: url('./img/woman-slide.jpg') center / cover;
+        padding: 190px;
+    }
+}
+
+@media (max-width:440px){
+    .navbar-right i{
+        display: none;
+    }
+
+    .carousel-item:nth-child(1){
+        padding: 150px;
+    }
+
+    .carousel-item:nth-child(2){
+        padding: 150px;
+    }
+
+    .appeal:nth-child(1){
+        padding: 80px;
+    }
+    
+    .appeal:nth-child(2){
+        padding: 80px;
+    }
+
+    .trend .img1{
+        padding: 80px;
+    }
+    
+    .trend .img2{
+        background: url('./img/men-trend.jpg') center / cover;
+        padding: 80px;
+    }
+    
+    .trend .img3{
+        background: url('./img/men-appeal.jpg') center / cover;
+        padding: 80px;
+    }
+
+    .suggest .img1{
+        padding: 80px;
+    }
+    
+    .suggest .img2{
+        background: url('./img/men-suggest.jpg') center / cover;
+        padding: 80px;
+    }
+    
+    .suggest .img3{
+        background: url('./img/woman-appeal.jpg') center / cover;
+        padding: 80px;
+    }
+}
+
+@media (max-width:400px){
+    .carousel-item:nth-child(1){
+        padding: 120px;
+    }
+
+    .carousel-item:nth-child(2){
+        padding: 120px;
+    }
+
+    .appeal:nth-child(1){
+        padding: 60px;
+    }
+    
+    .appeal:nth-child(2){
+        padding: 60px;
+    }
+
+    .trend .img1{
+        padding: 60px;
+    }
+    
+    .trend .img2{
+        background: url('./img/men-trend.jpg') center / cover;
+        padding: 60px;
+    }
+    
+    .trend .img3{
+        background: url('./img/men-appeal.jpg') center / cover;
+        padding: 60px;
+    }
+
+    .suggest .img1{
+        padding: 60px;
+    }
+    
+    .suggest .img2{
+        background: url('./img/men-suggest.jpg') center / cover;
+        padding: 60px;
+    }
+    
+    .suggest .img3{
+        background: url('./img/woman-appeal.jpg') center / cover;
+        padding: 60px;
+    }
+
+    #links .row{
+        grid-template-columns: repeat(1, 4fr);
+    }
+
+    .row .navbar-left{
+        text-align: center;
+    }
+}
+
+@media (max-width:370px){
+    .nav1 a{
+        font-size: 13px;
+    }
+    
+    .nav2 a{
+        font-size: 15px;
+    }
+    
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+    #sale{
+        font-size: 10px;
+    }
+
+    #services .row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer h5{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:350px){
+    .navbar-right i{
+        display: none;
+    }
+
+    .carousel-item:nth-child(1){
+        padding: 150px;
+    }
+
+    .carousel-item:nth-child(2){
+        padding: 150px;
+    }
+
+    .appeal:nth-child(1){
+        padding: 80px;
+    }
+    
+    .appeal:nth-child(2){
+        padding: 80px;
+    }
+
+    .trend .img1{
+        padding: 80px;
+    }
+    
+    .trend .img2{
+        background: url('./img/men-trend.jpg') center / cover;
+        padding: 80px;
+    }
+    
+    .trend .img3{
+        background: url('./img/men-appeal.jpg') center / cover;
+        padding: 80px;
+    }
+
+    .suggest .img1{
+        padding: 80px;
+    }
+    
+    .suggest .img2{
+        background: url('./img/men-suggest.jpg') center / cover;
+        padding: 80px;
+    }
+    
+    .suggest .img3{
+        background: url('./img/woman-appeal.jpg') center / cover;
+        padding: 80px;
+    }
+}
+
+@media (max-width:400px){
+    .carousel-item:nth-child(1){
+        padding: 100px;
+    }
+
+    .carousel-item:nth-child(2){
+        padding: 100px;
+    }
+
+    .appeal:nth-child(1){
+        padding: 40px;
+    }
+    
+    .appeal:nth-child(2){
+        padding: 40px;
+    }
+}
