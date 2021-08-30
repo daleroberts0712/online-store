@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ffffff;
+}
+
+i{
+    color: black;
+}
+
+i:hover{
+    color: orange;
+}
+
+.navbar li{
+    margin-inline: 5px;
+}
+
+.nav1 a{
+    font-size: 17px;
+    color: black;
+}
+
+.nav2 a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav2 a:hover{
+    text-decoration: 5px underline solid;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#sale{
+    background: black;
+    padding: 5px;
+}
+
+.carousel-item:nth-child(1){
+    background: url('./img/men-slide.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 210px;
+}
+
+.carousel-item:nth-child(2){
+    background: url('./img/woman-slide.jpg') center / cover;
+    padding: 210px;
+}
+
+.btn{
+    background: transparent;
+    border: 1px solid orange;
+    color: white;
+}
+
+.btn:hover{
+    background: orange;
+}
+
+#appeal .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    margin: auto;
+}
+
+.appeal:nth-child(1){
+    background: url('./img/men-suggest2.jpg') center top / cover;
+    padding: 150px;
+}
+
+.appeal:nth-child(2){
+    background: url('./img/woman-suggest2.jpg') center top / cover;
+    padding: 150px;
+}
+
+#trending .row{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.trend .img1{
+    background: url('./img/woman-trend.jpg') center / cover;
+    padding: 150px;
+    margin-bottom: 5px;
+}
+
+.trend .img2{
+    background: url('./img/men-trend.jpg') center top / cover;
+    padding: 150px;
+    margin-bottom: 5px;
+}
+
+.trend .img3{
+    background: url('./img/men-appeal.jpg') center top / cover;
+    padding: 150px;
+    margin-bottom: 5px;
+}
+
+#suggest .row{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.suggest .img1{
+    background: url('./img/woman-suggest.jpg') center / cover;
+    padding: 150px;
+    margin-bottom: 5px;
+}
+
+.suggest .img2{
+    background: url('./img/men-suggest.jpg') center / cover;
+    padding: 150px;
+    margin-bottom: 5px;
+}
+
+.suggest .img3{
+    background: url('./img/woman-appeal.jpg') center top / cover;
+    padding: 150px;
+    margin-bottom: 5px;
+}
+
+#services{
+    background: whitesmoke;
+}
+
+#services .row{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+#newsletter i{
+    margin-inline: 5px;
+}
+
+#newsletter h3{
+    font-weight: 600;
+}
+
+#links .row{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+#links li{
+    list-style: none;
+}
+
+#links a{
+    color: black;
+}
+
+footer{
+    background: black;
+}
