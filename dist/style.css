@@ -68,6 +68,15 @@ i:hover{
     background: orange;
 }
 
+.fade-in{
+    opacity: 0;
+}
+
+.fade-in.appear{
+    opacity: 1;
+    transition: 500ms ease-in;
+}
+
 #appeal .row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
